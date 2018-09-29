@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:fontFamily="@font/advent_pro_bold"
+            android:layout_marginLeft="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/setting"
+        android:layout_below="@id/appbar"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dukungan User"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/tentangapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tentang EventQ"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/hubungiapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hubungi Kami"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/tvChangePass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_pass"
+            android:textSize="16dp"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tvLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keluar"
+            android:textSize="16dp"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

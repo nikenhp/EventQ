@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">EventQ</string>
+
+    //Menu
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="agenda">Agenda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_main">Main Activity</string>
+
+    //Activity
+    <string name="login">Log In</string>
+    <string name="daftar">Daftar</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="alamat">Alamat</string>
+
+    <string name="info">INFORMASI ACARA</string>
+    <string name="acara">ACARA</string>
+
+    <string name="akandatang">akan datang</string>
+    <string name="lalu">event yang lalu</string>
+    <string name="semua">lihat semua</string>
+    <string name="start_date">Start Date</string>
+    <string name="searchTxt">Cari Event</string>
+    <string name="eventname">Nama Event</string>
+    <string name="lokasi">Lokasi Event</string>
+    <string name="biaya">Biaya</string>
+    <string name="ketbayar">Silahkan bayar biaya pendaftaran ke rekening berikut</string>
+    <string name="terimakasih">Terima kasih telah mendaftar event ini</string>
+    <string name="passKonf">Konfirmasi password</string>
+    <string name="change_pass">Rubah Password</string>
+    <string name="pass_saat_ini">Kata sandi saat ini</string>
+    <string name="pass_baru">Kata sandi baru</string>
+    <string name="konfirmasi_pass">Ketik ulang kata sandi anda</string>
+    <string name="desc_change_pass">Masukkan kata sandi baru dibawah ini dengan minimum 6 character</string>
+    <string name="hubungi_kami">Jika terdapat keluhan silahkan hubungi :</string>
+    <string name="nomer_telp">0821 999 827 11</string>
+    <string name="versi">Apps Version 1.0</string>
+    <string name="tentang">Tentang EventQ</string>
+    <string name="hubungi">Hubungi Kami</string>
+    <string name="submit">Submit</string>
+    <string-array name="gender">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+
+</resources>

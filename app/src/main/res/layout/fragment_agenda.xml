@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgendaFragment">
+
+    <LinearLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/app_bar"/>
+
+        <RelativeLayout
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/akandatang"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/allAkandatang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/semua"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/rvAkandatang"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"/>
+
+        <RelativeLayout
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lalu"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/histori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/semua"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgDataKosong2"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+    <ImageView
+        android:id="@+id/imgDataKosong1"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp" />
+</RelativeLayout>

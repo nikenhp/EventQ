@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:title="Notofocation"
+        android:text="Notofocation"
+        android:defaultValue="true"
+        />
+
+    <ListPreference
+
+        android:title="list_preferences"
+        android:key="list_preference"
+        />
+
+    <PreferenceCategory
+        />
+</PreferenceScreen>
